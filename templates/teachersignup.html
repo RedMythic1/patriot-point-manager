@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>Teacher Sign Up | Patriot Point Website</title>
+		<meta charset='utf-8'>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.1/socket.io.js" integrity="sha512-9mpsATI0KClwt+xVZfbcf2lJ8IFBAwsubJ6mI3rtULwyM3fBmQFzj0It4tGqxLOGQwGfJdk/G+fANnxfq9/cew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	</head>
+	<body>
+		<script src='/assets/js/teachersignup.js'></script>
+		<center>
+			<p>Teacher Sign Up Form</p>
+			<label for='email'>Please enter your PUSD email:</label>
+			<input type='email' id='email'>
+			<br>
+			<label for='username'>Please enter your username:</label>
+			<input type='text' id='username'>
+			<br>
+			<label for='password'>Please choose a secure password:</label>
+			<input type='password' id='password'>
+			<br>
+			<button onclick='submit()'>Submit for review (or signup if you are confirmed)</button>
+			<br>
+			<p id='info'></p>
+		</center>
+	</body>
+</html>

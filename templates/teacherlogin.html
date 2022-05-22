@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>Teacher Login | Patriot Point Website</title>
+		<meta charset="utf-8">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.1/socket.io.js" integrity="sha512-9mpsATI0KClwt+xVZfbcf2lJ8IFBAwsubJ6mI3rtULwyM3fBmQFzj0It4tGqxLOGQwGfJdk/G+fANnxfq9/cew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	</head>
+	<body>
+		<script src='/assets/js/teacherlogin.js'></script>
+		<center>
+			<h1>Teacher Login</h1>
+			<a href='/student/login'>I'm a student</a>
+			<br>
+			<label for='username'>Username:</label>
+			<input type='text' id='username'>
+			<br>
+			<label for='password'>Password:</label>
+			<input type='password' id='password'>
+			<br>
+			<button onclick='login()'>Log in</button>
+			<div id='info'></div>
+		</center>
+	</body>
+</html>

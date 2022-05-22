@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>Teacher Portal | Patriot Point Website</title>
+		<meta charset='utf-8'>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.1/socket.io.js" integrity="sha512-9mpsATI0KClwt+xVZfbcf2lJ8IFBAwsubJ6mI3rtULwyM3fBmQFzj0It4tGqxLOGQwGfJdk/G+fANnxfq9/cew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	</head>
+	<body>
+		<script src='/assets/js/teacherportal.js'></script>
+		<div style='width: 100%;y:0px;background-color: green;'>
+			<center>
+				<p style='color: white'>Hello, {{loggedin}}</p>
+				<a href='/logout'>Log out</a>
+			</center>
+		</div>
+		<br>
+		<label for='studentusername'>Student Username:</label>
+		<input type='text' id='studentusername'>
+		<br>
+		<label for='amount'>Amount to give:</label>
+		<input type='number' id='amount'>
+		<br>
+		<button onclick='add()'>Add</button>
+	</body>
+</html>
